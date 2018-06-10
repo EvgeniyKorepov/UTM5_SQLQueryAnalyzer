@@ -1,0 +1,136 @@
+ 3034498	0,03510	UPDATE | dhs_sessions_log                                                                            |id
+  158703	0,00005	SELECT | iptraffic_service_links AS ipsl, service_links AS sl                                        |ipsl.id, sl.id, ipsl.is_deleted, ipsl.ip_group_id
+  158683	0,00066	SELECT | ip_groups                                                                                   |ip_group_id, is_deleted
+   41428	0,00053	UPDATE | accounts                                                                                    |id
+   40737	0,00099	UPDATE | dtagg_hotspot                                                                               |base_cost, is_closed, slink_id
+   40137	0,03630	SELECT | ip_groups                                                                                   |mask_ext, mask, ip_type, ip, ip_ext, is_deleted
+   39972	0,00054	DELETE | dynamic_ip                                                                                  |ip, ip_type, ip_ext
+   39306	0,00022	UPDATE | dhcp_leases                                                                                 |binding_id
+   39284	0,00104	DELETE | ip_groups                                                                                   |id
+   13085	0,00008	SELECT | messages AS m, messages_status AS ms                                                        |ms.message_id, m.id, receiver_id, receiver_type, is_for_all, id, send_date
+   13052	0,00148	UPDATE | messages                                                                                    |recv_date, receiver_id, receiver_type, send_date
+    1946	0,00054	SELECT | users                                                                                       |id, is_deleted
+    1787	0,00010	SELECT | users_groups_link                                                                           |user_id
+    1674	0,00326	SELECT | user_additional_params                                                                      |userid
+     620	0,00003	SELECT | nas_settings                                                                                |nas_id
+     571	0,00207	UPDATE | periodic_service_links                                                                      |id
+     553	0,00030	SELECT | dynashape_borders                                                                           |is_deleted
+     464	0,00025	SELECT | t_class                                                                                     |is_deleted
+     377	0,00134	SELECT | users                                                                                       |id
+     370	0,00252	SELECT | user_contacts                                                                               |uid
+     287	0,04030	SELECT | iptraffic_service_links                                                                     |is_deleted
+     249	0,00096	SELECT | dynamic_ip                                                                                  |id
+     249	0,00067	SELECT | users                                                                                       |id
+     245	0,01420	SELECT | dhs_sessions_log                                                                            |account_id, last_update_date
+     239	0,00006	SELECT | currency_list                                                                               |id
+     201	0,00012	SELECT | routers_info                                                                                |is_deleted
+     192	0,00010	SELECT | document_profiles                                                                           |is_deleted
+     155	0,00015	SELECT | groups                                                                                      |id
+     140	0,00364	UPDATE | users                                                                                       |id
+     139	0,00092	UPDATE | blocks_info                                                                                 |id
+      94	0,00677	DELETE | dynamic_ip                                                                                  |id
+      88	0,00150	UPDATE | user_contacts                                                                               |id
+      84	0,04410	SELECT | payment_transactions                                                                        |payment_enter_date, account_id
+      74	0,00154	SELECT | voluntary_suspension_data                                                                   |block_id
+      62	0,22800	SELECT | dhs_sessions_detail                                                                         |account_id, recv_date
+      61	0,00003	SELECT | document_profile_templates                                                                  |profile_id
+      59	0,00273	UPDATE | users                                                                                       |id, is_deleted
+      59	0,00007	SELECT | document_profiles                                                                           |id, is_deleted
+      59	0,00214	UPDATE | users                                                                                       |id, ic_status
+      53	0,00142	UPDATE | dtagg_periodic                                                                              |is_closed, slink_id
+      51	0,00131	SELECT | dtagg_periodic                                                                              |is_closed, slink_id, F, UPDATE
+      51	0,00022	SELECT | dtagg_cust                                                                                  |account_id
+      48	0,00044	SELECT | nas_info                                                                                    |is_deleted
+      47	0,00123	UPDATE | credits                                                                                     |id
+      47	0,00028	SELECT | dtagg_periodic                                                                              |is_closed, slink_id
+      46	0,01400	DELETE | user_additional_params                                                                      |userid
+      42	0,00026	SELECT | switches                                                                                    |OFFSET, LIMIT, is_deleted
+      37	0,00103	UPDATE | account_tariff_link                                                                         |id
+      36	0,00100	SELECT | utm5_settings                                                                               |add_tel_num_to_invoice, variable
+      36	0,00242	UPDATE | service_links                                                                               |id
+      30	0,00077	SELECT | switch_types                                                                                |is_deleted
+      28	0,00007	SELECT | utm5_settings                                                                               |system_currency, variable
+      28	0,17600	SELECT | archives                                                                                    |archive_id, table_type
+      27	0,00389	UPDATE | iptraffic_service_links                                                                     |id
+      26	0,00069	SELECT | archives                                                                                    |table_type
+      25	0,00040	UPDATE | dtagg_periodic                                                                              |is_closed, slink_id
+      25	0,00152	UPDATE | downloaded                                                                                  |downloaded_id, tclass_id
+      24	0,00029	SELECT | id from payment_transactions                                                                |id
+      18	0,01400	UPDATE | payment_transactions                                                                        |id
+      17	0,00047	SELECT | dtagg_hotspot                                                                               |is_closed, slink_id, F, UPDATE
+      16	0,00113	SELECT | dtagg_iptraffic                                                                             |is_closed, slink_id, F, UPDATE
+      15	0,00067	SELECT | downloaded                                                                                  |downloaded_id, tclass_id, is_deleted
+      14	0,00014	SELECT | houses                                                                                      |id
+      13	0,13700	SELECT | users                                                                                       |is_deleted
+      13	0,00115	UPDATE | dialup_service_links                                                                        |id
+      13	0,00031	SELECT | utm5_settings                                                                               |invoice_text, variable
+      13	0,00115	UPDATE | dtagg_hotspot                                                                               |is_closed, slink_id
+      13	0,02570	SELECT | utm5_settings                                                                               |invoice_subject, variable
+      13	0,00062	SELECT | switches                                                                                    |is_deleted
+      12	0,00008	SELECT | time_range                                                                                  |is_deleted
+      12	0,02800	SELECT | account_tariff_link                                                                         |id
+      12	0,00000	SELECT | time_range_days                                                                             |is_deleted
+      12	0,00067	DELETE | ip_groups                                                                                   |ip_group_id
+      12	0,00042	SELECT | switches                                                                                    |id, is_deleted
+      12	0,00008	SELECT | time_range_detail                                                                           |is_deleted
+      12	0,00000	UPDATE | dtagg_iptraffic                                                                             |is_closed, slink_id
+      10	0,00010	SELECT | dhcp_options                                                                                |owner_id, owner_type, is_deleted
+      10	0,00000	SELECT | ip_zones_detail                                                                             |ip_zone_id
+      10	0,00000	SELECT | ip_zones                                                                                    |id
+       9	0,00389	UPDATE | dtagg_iptraffic                                                                             |id
+       8	0,00100	UPDATE | downloaded                                                                                  |downloaded_id
+       7	0,00000	SELECT | utm5_settings                                                                               |notification_message_by_wintray, variable
+       7	0,00014	SELECT | utm5_settings                                                                               |notification_message, variable
+       7	0,00029	UPDATE | dtagg_hotspot                                                                               |id
+       7	0,00043	SELECT | utm5_settings                                                                               |balance_notification_email, variable
+       7	0,21300	SELECT | ip_groups                                                                                   |is_deleted
+       6	0,01270	SELECT | invoice_entry                                                                               |invoice_id, qnt, is_deleted
+       6	0,00017	SELECT | dhs_sessions_log_1446816107_1505990240                                                      |account_id, last_update_date
+       6	0,00000	SELECT | currency_list                                                                               |id, is_deleted
+       5	0,00020	SELECT | dhs_sessions_detail_1446816107_1505990240                                                   |account_id, recv_date
+       5	0,00060	SELECT | users AS u, document_profile_templates AS dpt                                               |dpt.profile_id, u.doc_profile_id, u.id, dpt.doc_type
+       5	0,00040	SELECT | dhcp_pool_info                                                                              |is_deleted
+       5	0,00040	SELECT | dhs_sessions_detail_1227923020_1499324385                                                   |account_id, recv_date
+       5	0,00020	SELECT | supplier_info                                                                               |id
+       5	0,00000	SELECT | dhs_sessions_log_1227923020_1499324385                                                      |account_id, last_update_date
+       5	0,00040	SELECT | switches_dhcp_pool_links                                                                    |switch_id, is_deleted
+       5	0,00200	SELECT | acts                                                                                        |doc_type, invc_id
+       4	0,00025	SELECT | temp_ip                                                                                     |is_deleted
+       4	0,00075	UPDATE | dhcp_options                                                                                |owner_id, owner_type
+       4	0,01500	SELECT | service_links AS sl, iptraffic_service_links AS ipsl                                        |sl.user_id, sl.id, ipsl.id, sl.is_deleted, ipsl.is_deleted
+       4	0,00050	UPDATE | discount_periods                                                                            |id
+       4	0,00150	DELETE | switches_dhcp_pool_links                                                                    |switch_id
+       3	0,00000	SELECT | utm5_settings                                                                               |smtp_relay, variable
+       3	0,00000	SELECT | utm5_settings                                                                               |smtp_port, variable
+       3	0,00167	SELECT | ip_zones_detail                                                                             |mask, ip_type, ext_net, net, ext_mask
+       3	0,00000	SELECT | utm5_settings                                                                               |smtp_fqdn, variable
+       3	0,00967	SELECT | service_links AS sl, periodic_services_data AS psd,account_tariff_link AS atl,tariffs AS t  |sl.tariff_link_id, BY, atl.account_id,, atl.id, sl.service_id, t.id, sl.user_id, sl.tariff_link_id,, sl.is_deleted, atl.tariff_id, GROUP, psd.id, t.name
+       3	0,00033	SELECT | radius_pool_info                                                                            |is_deleted
+       3	0,00000	SELECT | utm5_settings                                                                               |notification_message_subject, variable
+       3	0,00000	SELECT | discount_transactions_all, services_data                                                    |charge_type, discount_transactions_all.service_id, services_data.id, account_id, discount_date, discount_transactions_all.service_type
+       3	0,00000	SELECT | charge_policy                                                                               |id
+       3	0,00067	SELECT | switch_types                                                                                |id
+       2	0,00100	SELECT | routers_info                                                                                |router_ip, ..., is_deleted
+       2	0,05000	SELECT | payment_transactions                                                                        |payment_enter_date
+       2	0,00850	UPDATE | payment_methods                                                                             |id
+       2	0,03900	UPDATE | switches                                                                                    |id
+       2	0,00100	DELETE | firewall_rules_new                                                                          |id
+       1	0,00100	SELECT | payment_transactions                                                                        |id
+       1	0,00800	SELECT | dhs_sessions_detail                                                                         |account_id, disc_per_id
+       1	1,25000	SELECT | dhs_sessions_detail_1446816107_1505990240                                                   |account_id, disc_per_id
+       1	0,00000	SELECT | archives                                                                                    |start_date, table_type
+       1	0,00000	SELECT | utm5_settings                                                                               |notification_message_from, variable
+       1	0,00000	SELECT | ip_groups, iptraffic_service_links                                                          |ip_groups.is_deleted, iptraffic_service_links.is_deleted, port_id, !, switch_id, ip_groups.ip_group_id, iptraffic_service_links.ip_group_id
+       1	0,26400	DELETE | account_invoice                                                                             |invc_id
+       1	0,00100	SELECT | payment_methods                                                                             |id
+       1	0,00100	SELECT | payment_transactions                                                                        |cancel_id, id, is_canceled
+       1	0,04800	SELECT | invoices                                                                                    |payment_transaction_id, is_deleted
+       1	0,00100	SELECT | invoices_1227923020_1499324385                                                              |account_id, is_payed, is_deleted
+       1	0,00000	SELECT | payment_transactions_1446816107_1505990240                                                  |payment_enter_date, account_id
+       1	0,07400	SELECT | invoices                                                                                    |account_id, is_payed, is_deleted
+       1	0,00100	UPDATE | invoices                                                                                    |id
+       1	0,01300	SELECT | invoices_1446816107_1505990240                                                              |account_id, is_payed, is_deleted
+       1	0,00600	UPDATE | firewall_rules_new                                                                          |id
+
+Количество запросов, среднее время, тип запроса, таблицы запроса, поля в WHERE и ORDER BY
+Проанализировано 21461173 строк логов UTM5
